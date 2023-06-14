@@ -5,18 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Malek Recipes</title>
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/couscous.html"> Couscous Recipe</a></li>
-        <li><a href="recipes/Chocolate_Chip_Muffin.html">  Chocolate Chip Muffin recipe</a></li>
-        <li><a href="recipes/Strawberry_Spinach_Salad.html">  Strawberry Spinach Salad recipe</a></li>
-    </ul>
+    <!--Main page-->
+    <div class="page">
+        <header class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Mediterranean Cuisine</h1>
+                    <h4>explore the rich flavors</h4>                    
+                </div>
+            </div>
+        </header>        
+    </div>
+    <!-- recipes container-->
+    <section class="recipes-container">
+        <div class="recipes-list">
+            <!--Mediterranean Couscous-->
+            <a href="./recipes/couscous.html" class="recipe">
+                <img src="./images/couscous1.jpg" alt="Couscous" class="img recipe-img"/>
+                <p>Mediterranean Couscous</p>
+            </a>
+            <!--Mediterranean Tuna Salad-->
+            <a href="./recipes/mediterranean_Tuna_Salad.html" class="recipe">
+                <img src="./images/tunasalad2.webp" alt="Mediterranean Tuna Salad" class="img recipe-img"/>
+                <p>Mediterranean Tuna Salad</p>
+            </a>
+            <!--Couscous-->
+            <a href="./recipes/shakshuka.html" class="recipe">
+                <img src="./images/shakshuka.jpg" alt="shakshuka" class="img recipe-img"/>
+                <p>Mediterranean Shakshuka</p>
+            </a>
 
-
+        </div>
+    </section>
+    
 </body>
 
 </html>
